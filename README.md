@@ -18,9 +18,8 @@ You will find everything you need here for the challenge including:
 
 **Git**
 
-1. Install [Git Bash](https://git-scm.com/download/win)
-2. Open Git Bash or Powershell to confirm version
-3. `git --version`
+1. Install [Git](https://git-scm.com/download/win)
+2. Open Git Bash or PowerShell to confirm successful install `git --version`
 
 
 **Docker Desktop**
@@ -32,8 +31,8 @@ You will find everything you need here for the challenge including:
 
 **Git**
 
-1. Open terminal and enter `xcode-select --install`
-2. `git --version`
+1. Open Terminal, enter `xcode-select --install` and follow onscreen instructions
+2. Confirm successful install `git --version`
 
 **Docker Desktop**
 
@@ -57,13 +56,13 @@ You will find everything you need here for the challenge including:
 #### Clone the project repo
 
 ```bash
-git clone https://github.com/bazaarvoice/bvcodingchallenge-sampleapp.git
+git clone https://github.com/bazaarvoice/bvcodingchallenge-sampleapp-test
 ```
 
 #### Browse to project folder
 
 ```bash
-cd bvcodingchallenge-sampleapp
+cd bvcodingchallenge-sampleapp-test
 ```
 
 #### Start the application
@@ -74,7 +73,10 @@ docker-compose up
 
 **Note:**
 
-Docker will download the required images and start the application. The database will be created and populated at this stage.
+- Docker will download the required images and start the application. The database will be created and populated at this stage.
+- **Windows users** may get the following Security Alert. Tick the first option and allow access.
+
+![Security Alert](img/docker-windows-firewall.png)
 
 #### Open the application
 
